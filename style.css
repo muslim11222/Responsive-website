@@ -71,6 +71,51 @@ header{
 
 
 
+/* service area style  */
+
+#first_section {
+     background-color: #16213E;
+}
+#parent_div {
+     width: 1200px;
+     margin: auto;
+     display: grid;
+     grid-gap: 30px;
+     grid-template-columns: repeat(3, 1fr);
+     padding-top: 60px;
+     padding-bottom: 40px;
+}
+.title {
+     font-size: 50px;
+     text-align: center;
+     padding-top: 40px;
+     color: #fff;
+}
+
+.single_area {
+     padding: 40px 40px;
+     text-align: center;
+     color: #070707;
+     background: #fff;
+     border-radius: 5px;
+     box-shadow: 0 -20px 10px -20px rgba(0,0,0,0.45) inset, -20px 0 10px -20px rgba(0,0,0,0.45) inset;
+}
+     
+.single_area h2 {
+     padding: 15px;
+     font-size: 35px;
+     font-weight: bold;
+}
+.single_area i {
+     font-size: 40px;
+     font-weight: bold;
+}
+.single_area p {
+     font-size: 20px;
+}
+
+
+
 
 
 
